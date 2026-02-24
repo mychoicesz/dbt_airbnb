@@ -105,3 +105,28 @@ https://docs.getdbt.com/docs/configure-your-profile
 [0m12:57:37.172898 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E2A428180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E29BC0290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E297CF240>]}
 [0m12:57:37.173264 [debug] [MainThread]: Flushing usage events
 [0m12:57:38.045767 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:24:35.757564 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 14:24:35.952174 | 16839975-4a03-4ad3-855e-21298fbedc8a ==============================
+[0m14:24:35.952174 [info ] [MainThread]: Running with dbt=1.11.2
+[0m14:24:35.953125 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\shawn\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init --skip-profile-setup income_tax_stats', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m14:24:36.189755 [debug] [MainThread]: Starter project path: C:\Users\shawn\OneDrive\Documents\DBTLearning\course\course\.venv\Lib\site-packages\dbt\include\starter_project
+[0m14:24:36.227247 [info ] [MainThread]: 
+Your new dbt project "income_tax_stats" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:24:36.230229 [debug] [MainThread]: Command `dbt init` succeeded at 14:24:36.230009 after 0.57 seconds
+[0m14:24:36.230832 [debug] [MainThread]: Flushing usage events
