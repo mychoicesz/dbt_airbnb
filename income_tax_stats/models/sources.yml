@@ -1,0 +1,9 @@
+sources:
+  - name: incometax
+    schema: raw
+    tables:
+      - name: tax_data
+        identifier: tax_landing_zone
+
+      - name: field_def
+        identifier: field_definitions

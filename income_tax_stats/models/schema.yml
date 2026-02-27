@@ -1,0 +1,18 @@
+models:
+  - name: dim_agi_class
+    description: Adjusted Gross Income Class Size
+    data_tests:
+      - minimum_row_count:
+          arguments:
+            minimum_row_count: 6
+          config:
+            severity: error  
+    columns:
+      - name: AGI_CLASS
+        description: This is primary key
+        data_tests:
+          - unique
+          - not_null
+
+  - name: dim_zipcode
+    description: Income tax return zipcode
